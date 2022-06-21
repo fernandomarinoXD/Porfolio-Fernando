@@ -1,0 +1,25 @@
+/*barra de navegacion*/
+#argentinalogo {
+width: 50PX;
+height: 40px;
+background-color: black;
+}
+
+.icono-github{
+    width: 30px;
+    height: 30px;
+}
+
+
+ ul ,li{
+    display:flex;
+    gap: 2em;
+    
+}
+
+ .navbar {
+     background-color: black;
+     
+ }
+
+ 

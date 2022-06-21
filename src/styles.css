@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+
+html {
+    font-size: 100%;
+    scroll-behavior: smooth;   
+  }
+    @media only screen and (max-width: 75em) {
+      html {
+        font-size: 59%; } }
+    @media only screen and (max-width: 56.25em) {
+      html {
+        font-size: 56%; } }
+    @media only screen and (min-width: 112.5em) {
+      html {
+        font-size: 65%; } 
+        
+      
+      }
+
+
+        li {
+            list-style: none; }
+
+
+
+
+body {
+    box-sizing: border-box;
+    position: relative;
+    line-height: 1.5;
+    font-family: sans-serif;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Source Sans Pro', sans-serif; }
+
+    
