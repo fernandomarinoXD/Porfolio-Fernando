@@ -10,7 +10,7 @@ import { PieComponent } from './pie/pie.component';
 import { InicioSeccionComponent } from './inicio-seccion/inicio-seccion.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { PorfolioComponent } from './porfolio/porfolio.component';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule ,ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     NgCircleProgressModule.forRoot(),
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
     
     
   ],
