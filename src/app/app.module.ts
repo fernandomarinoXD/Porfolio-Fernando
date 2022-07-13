@@ -11,6 +11,7 @@ import { InicioSeccionComponent } from './inicio-seccion/inicio-seccion.componen
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { PorfolioComponent } from './porfolio/porfolio.component';
 import { FormsModule ,ReactiveFormsModule } from '@angular/forms';
+import { HabilidadesComponent } from './habilidades/habilidades.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormsModule ,ReactiveFormsModule } from '@angular/forms';
     EstudiosComponent,
     PieComponent,
     InicioSeccionComponent,
-    PorfolioComponent
+    PorfolioComponent,
+    HabilidadesComponent
   ],
   imports: [
     BrowserModule,

@@ -1,7 +1,23 @@
 <div class="container-fluid">
   <div class="wrapper">
     <section class="estudios">
-     <h2>Estudios</h2>
+     <ul ngFor="">
+      <li>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="" >
+          <i class="bi bi-pencil"></i>
+          </button >
+          <button type="button" class="btn btn-alert" data-toggle="modal" data-target="#deleteEducationModal" >
+          <i class="bi bi-trash"></i>
+          </button>
+        
+      </li>
+
+     </ul>
+      <h2>Estudios
+
+        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#addEducationModal"><i class="bi bi-plus-circle"></i></button>
+
+      </h2>
         <div class="card">
             <img src="assets/ffyl.jpeg" width="60px" height="70px" class="img-thumbnail">
                 <p>Universitarios</p><br>
@@ -9,18 +25,5 @@
         </div>     
     </section>
   </div>
-      <div id="skills">Habilidades</div>
-        <circle-progress 
-        [percent]="70"
-        [radius]="50"
-        [outerStrokeWidth]="20" [innerStrokeWidth]="10" [outerStrokeColor]="'#3777BE'" [innerStrokeColor]="'#7f9fc1'" [animation]="true" [animationDuration]="300">       
-        </circle-progress>
-        
-        <circle-progress [percent]="70"
-        [radius]="50"
-        [outerStrokeWidth]="20" [innerStrokeWidth]="10" [outerStrokeColor]="'#3777BE'" [innerStrokeColor]="'#7f9fc1'" [animation]="true" [animationDuration]="300"></circle-progress>
-        
-        <circle-progress [percent]="70"
-        [radius]="50"
-        [outerStrokeWidth]="20" [innerStrokeWidth]="10" [outerStrokeColor]="'#3777BE'" [innerStrokeColor]="'#7f9fc1'" [animation]="true" [animationDuration]="300"></circle-progress>
+      
 </div>
